@@ -309,10 +309,23 @@ body {
   display: none;
 }
 
+@media (min-width: 576px) {
+  .block__button-get > span {
+    display: inline-block;
+  }
+}
+
 @media (min-width: 768px) {
   .block__button-get {
     display: block;
     width: 150px;
+  }
+}
+
+@media (min-width: 992px) {
+  .block__button-get {
+    display: block;
+    width: 180px;
   }
 }
 

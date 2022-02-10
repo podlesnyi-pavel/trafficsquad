@@ -176,11 +176,20 @@ body {
 
     & > span {
       display: none;
+
+      @media (min-width: 576px) {
+        display: inline-block;
+      }
     }
 
     @media (min-width: 768px) {
       display: block;
       width: 150px;
+    }
+
+    @media (min-width: 992px) {
+      display: block;
+      width: 180px;
     }
   }
 
